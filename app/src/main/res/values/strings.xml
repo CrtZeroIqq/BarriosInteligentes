@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BI_Arica</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+</resources>
