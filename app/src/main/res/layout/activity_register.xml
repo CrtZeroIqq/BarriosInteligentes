@@ -92,6 +92,24 @@
                     android:maxLines="1"
                     android:minHeight="48dp" />
 
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Ingrese Contraseña"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"/>
+
+                <EditText
+                    android:id="@+id/password_confirmation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Confirme Contraseña"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"/>
+
                 <Button
                     android:id="@+id/registerButton"
                     android:layout_width="match_parent"
@@ -105,3 +123,4 @@
 
     </ScrollView>
 </layout>
+
