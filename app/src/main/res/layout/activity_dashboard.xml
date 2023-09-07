@@ -102,6 +102,8 @@
 
         <ImageButton
             style="@style/RoundedButton"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_row="2"
