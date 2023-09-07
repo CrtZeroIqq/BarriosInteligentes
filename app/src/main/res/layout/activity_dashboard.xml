@@ -13,6 +13,7 @@
 
         <!-- Columna 1 -->
         <ImageButton
+            android:id="@+id/button1"
             style="@style/RoundedButton"
             android:scaleType="fitCenter"
             android:layout_width="0dp"
@@ -28,6 +29,7 @@
 
         <ImageButton
             style="@style/RoundedButton"
+            android:id="@+id/button3"
             android:scaleType="fitCenter"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -42,6 +44,7 @@
 
         <ImageButton
             style="@style/RoundedButton"
+            android:id="@+id/button5"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:layout_width="0dp"
@@ -54,14 +57,18 @@
             android:text="Button 3" />
 
         <Button
+            style="@style/RoundedButton"
             android:layout_width="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_row="3"
             android:layout_margin="8dp"
             android:layout_columnWeight="1"
+            android:src="@drawable/violencia"
             android:text="Button 4"
-            style="@style/RoundedButton"/>
+            />
 
         <Button
             android:layout_width="0dp"
@@ -76,6 +83,7 @@
         <!-- Columna 2 -->
         <ImageButton
             style="@style/RoundedButton"
+            android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -89,6 +97,7 @@
 
         <ImageButton
             style="@style/RoundedButton"
+            android:id="@+id/button4"
             android:scaleType="fitCenter"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -102,6 +111,7 @@
 
         <ImageButton
             style="@style/RoundedButton"
+            android:id="@+id/button6"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_width="0dp"
